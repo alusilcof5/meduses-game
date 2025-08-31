@@ -378,4 +378,19 @@ function popBubble(bubble, event) {
         if (index !== -1) bubbles.splice(index, 1);
         createBubble();
     }, 300);
+
+    
 }
+
+window.addEventListener("load", () => {
+  const splash = document.getElementById("splash");
+
+  // Espera un poco y luego desvanece
+  setTimeout(() => {
+    splash.classList.add("hidden");
+    setTimeout(() => {
+      splash.style.display = "none";
+    }, 2000); // tiempo de la transición
+  }, 1500); // tiempo antes de empezar el fade
+});
+
