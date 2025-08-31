@@ -35,8 +35,7 @@ Sigue estos pasos para jugar:
 - Clone the repository:
 Abre tu terminal y escribe este comando:
 ```
-
-
+https://alusilcof5.github.io/ocean-game/
 ```
 Go to the folder:
 ```
